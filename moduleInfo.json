@@ -1,0 +1,11 @@
+{
+	"Name":"Syncthing",
+	"Desc":"Open Source Continuous File Synchronization",
+	"Group":"Download",
+	"IconPath":"syncthing/assets/img/favicon-sync.png",
+	"Version":"1.5.0-rc.2",
+	"StartDir":"syncthing/#",
+	"SupportFW":true,
+	"LaunchFWDir":"syncthing/#",
+	"InitFWSize":[1200,670]
+}
