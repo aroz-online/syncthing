@@ -46,15 +46,15 @@ The filename of the binary files must match the following pattern
 ```
 <parent folder name>_<runtime.GOOS>_<runtime.GOARCH>
 
-e.g. (demo module)
+e.g. (syncthing module)
 //Other platforms
-demo_darwin_amd64
-demo_linux_amd64
-demo_linux_arm
-demo_linux_arm64
+syncthing_darwin_amd64
+syncthing_linux_amd64
+syncthing_linux_arm
+syncthing_linux_arm64
 
 //Windows only
-demo.exe
+syncthing.exe
 ```
 
 ## Enable Subservice
