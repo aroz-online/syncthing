@@ -41,6 +41,22 @@ Syncthing subservice config demo for ArozOS
    sudo systemctl restart arozos
    ```
 
+### Binary Filename
+The filename of the binary files must match the following pattern
+```
+<parent folder name>_<runtime.GOOS>_<runtime.GOARCH>
+
+e.g. (demo module)
+//Other platforms
+demo_darwin_amd64
+demo_linux_amd64
+demo_linux_arm
+demo_linux_arm64
+
+//Windows only
+demo.exe
+```
+
 ## Enable Subservice
 
 If your Syncthing subservice isn't started by default, check if it has been disabled in the System Setting --> Subservice --> Disabled Services and click "Start" to start the subservice. If the subservice is unable to start, check the terminal of ArozOS output to see if there are any errors.
